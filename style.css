@@ -1,0 +1,185 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	/*font-family: Helvetica;*/
+}
+
+/***********INTRO************/
+
+.intro
+{
+	width: device-width;
+	height: 680px; 
+	background-image: url("Background img.jpg");
+}
+
+.logo
+{
+	position: relative;
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 10%;
+}
+
+.navbar
+{
+	list-style-type: none;
+	padding: 10px 5px 10px 5px; 
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	/*display: sticky;*/
+}
+
+.navlist
+{
+	display: inline;
+	padding-left:15px;
+	padding-right:15px;
+	text-align: center;
+}
+
+.navlink
+{
+	color: #d1cfcb;
+	padding:10px; 
+	text-decoration: none;
+	font-size: 25px;
+}
+
+a.navlink:hover,a.navlink:active
+{
+	background-color: black;
+	color: white;
+	/*transform: scale(1.20,1.20);*/
+	/*font-size: 30px;*/
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+
+
+/*
+*
+Intro end
+*
+*/
+
+/********contact******/
+.contact
+{
+	background: white;
+}
+
+.contact-heading
+{
+	margin: 10px auto 10px auto;
+	font-family: 'cursive';
+	font-style: italic;
+	text-align: center;
+	border-bottom: 3px dotted #e8edea;
+}
+.contact-table
+{
+	margin: 25px auto 10px auto;
+}
+
+.contact-tr
+{
+	margin: 20px auto 20px auto; 
+}
+
+.contact-td
+{
+	padding: 25px;
+	font-size: 20px;
+	font-style: italic;
+	background-color: #e8edea;
+}
+
+/*
+*
+Contact end
+*
+*/
+
+/*****findus****/
+
+.find
+{
+	margin: 50px auto 50px auto;
+}
+
+.find-heading
+{
+	margin: 10px auto 10px auto;
+	font-family: 'cursive';
+	font-style: italic;
+	text-align: center;
+	border-bottom: 3px dotted #e8edea;
+}
+
+.find-div1
+{
+	font-size: 22px;
+	padding:20px;
+	text-align: center;
+	display: inline-block;
+	background-color: #e8edea;
+	width: 25%;
+	margin-top: 50px;
+}
+
+.find-div2
+{
+	font-size: 22px;
+	padding:20px;
+	text-align: center;
+	display: inline-block;
+	background-color: #e8edea;
+	width: 25%;
+	margin-top: 50px;
+}
+.empty-div-end
+{
+	display: inline-block;
+	background-color: white;
+	width: 15%;
+	margin-top: 50px;
+}
+.empty-div-mid
+{
+	display: inline-block;
+	background-color: white;
+	width: 20%;
+	margin-top: 50px;
+}
+
+div.find-div2:hover, div.find-div1:hover
+{
+	background-color: black;
+	color:white;
+	transform: scale(1.20,1.20);
+	/*font-size: 26px;*/
+	border: 5px solid;
+	border-radius: 25px;
+	box-shadow: 5px 10px 8px #888888;
+
+}
+
+/*
+Find end
+*/
+
+
+
